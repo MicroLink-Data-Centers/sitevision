@@ -1,0 +1,3 @@
+src/components/profile/SiteProfile.tsx(2,1): error TS6133: 'Site' is declared but its value is never read.
+src/components/profile/SiteProfile.tsx(4,29): error TS6133: 'Badge' is declared but its value is never read.
+src/components/profile/SiteProfile.tsx(16,56): error TS6133: 'PolarRadiusAxis' is declared but its value is never read.

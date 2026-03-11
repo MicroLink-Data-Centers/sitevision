@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Canvas */
+    --cream:        #F5F0E8;
+    --warm-white:   #FAF8F4;
+    --sand:         #EDE8DF;
+
+    /* Brand */
+    --navy:         #0F2B4C;
+    --steel:        #3A5A8C;
+    --mid-blue:     #5B7FAD;
+    --ice:          #D6E3F0;
+
+    /* Accents */
+    --verdant:      #7BC4A0;
+    --amber:        #C9956B;
+    --soft-red:     #D4726A;
+
+    /* Atmospheric */
+    --blue-glow:    rgba(58, 90, 140, 0.25);
+
+    /* Text hierarchy */
+    --text-primary:   #0F2B4C;
+    --text-secondary: #4A5568;
+    --text-tertiary:  #8896A6;
+  }
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--text-primary);
+  font-family: 'DM Sans', sans-serif;
+}
