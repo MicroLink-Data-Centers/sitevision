@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "set \"NODE_OPTIONS=--dns-result-order=ipv4first\" && npx wrangler pages deploy dist --project-name sitevision --branch=main --commit-dirty=true",
-    "predeploy": "node tools/predeploy-guard.js"
+    "predeploy": "node tools/predeploy-guard.cjs"
   },
   "dependencies": {
     "html2canvas": "^1.4.1",
